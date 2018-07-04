@@ -13,6 +13,12 @@ import com.patterns.creational.factory.enums.Month;
 import com.patterns.creational.singleton.Eager.Example.ExternalMachineConnection;
 import com.patterns.creational.singleton.Enum.Example.MemoryConnection;
 import com.patterns.creational.singleton.Lazy.Example.SQLConnection;
+import com.patterns.operational.command.*;
+import com.patterns.operational.decorator.NormalHouse;
+import com.patterns.operational.decorator.Vacant;
+import com.patterns.operational.decorator.Villa;
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,8 +51,59 @@ public class Main {
 
         MonthFactory<Car> summerFactory = new PolishFactory().get(PartOfYear.Summer);
         Car summerCar = summerFactory.get(Month.January);
-        System.out.print(summerCar.toString());
+        System.out.println(summerCar.toString());
+
+        System.out.println();
+        System.out.println("Normal house");
+        NormalHouse normalHouse = new NormalHouse();
+        normalHouse.Enter();
+        normalHouse.Sleep();
+        normalHouse.Exit();
+
+        System.out.println();
+        System.out.println("Vacant");
+        Vacant vacant = new Vacant(normalHouse);
+        vacant.Enter();
+        vacant.Sleep();
+        vacant.Exit();
+        vacant.Demolish();
+
+        System.out.println();
+        System.out.println("Villa");
+        Villa villa = new Villa(normalHouse);
+        villa.Enter();
+        villa.Sleep();
+        villa.Swim();
+        villa.Exit();
 
 
+        System.out.println();
+        System.out.println("Explorer star journey");
+        Random r = new Random();
+        final int CAMP_COUNT = 10;
+
+        ExplorationJournal journal = new ExplorationJournal();
+        Explorer explorer = new Explorer();
+
+        for(int campIndex =0; campIndex<CAMP_COUNT;campIndex++) {
+            switch (r.nextInt() % 4) {
+                case 0:
+                    journal.makeNote(new MoveUpCommand(explorer));
+                    break;
+                case 1:
+                    journal.makeNote(new MoveDownCommand(explorer));
+                    break;
+                case 2:
+                    journal.makeNote(new MoveLeftCommand(explorer));
+                    break;
+                default:
+                    journal.makeNote(new MoveRightCommand(explorer));
+                    break;
+            }
+        }
+
+        System.out.println();
+        System.out.println("Explorer print his book based on his journal");
+        journal.print();
     }
 }
