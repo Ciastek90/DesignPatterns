@@ -17,93 +17,32 @@ import com.patterns.operational.command.*;
 import com.patterns.operational.decorator.NormalHouse;
 import com.patterns.operational.decorator.Vacant;
 import com.patterns.operational.decorator.Villa;
+import com.patterns.operational.visitor.Visitable;
+import com.patterns.operational.visitor.WeekendManager;
+import com.patterns.operational.visitor.WeekendWallet;
+import com.patterns.operational.visitor.utilities.Cinema;
+import com.patterns.operational.visitor.utilities.Opera;
+import com.patterns.operational.visitor.utilities.Theatre;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        ExternalMachineConnection machineConnection = ExternalMachineConnection.getINSTANCE();
-        System.out.print(machineConnection.getData());
-        SQLConnection sqlConnection = SQLConnection.getINSTANCE();
-        System.out.print(sqlConnection.getData());
-        MemoryConnection memoryConnection = MemoryConnection.INSTANCE;
-        System.out.print(memoryConnection.getData());
-
-        com.patterns.creational.builder.standard.CarBuilder builder =
-                new com.patterns.creational.builder.standard.CarBuilder();
-        builder.setBody(Body.Crossover);
-        builder.setColor(Color.Black);
-        builder.setDrive(Drive.Diesel);
-        builder.setMark(Mark.BMW);
-        Car bmwX3 = builder.build();
-        System.out.print(bmwX3.toString());
-
-        Car bmwX5 = new com.patterns.creational.builder.fluentApi.CarBuilder()
-                .setBody(Body.Crossover)
-                .setColor(Color.Black)
-                .setDrive(Drive.Diesel)
-                .setMark(Mark.BMW).build();
-
-        System.out.print(bmwX5.toString());
-
-        Car mayAudi = new AudiFactory().get(Month.May);
-        System.out.print(mayAudi.toString());
-
-        MonthFactory<Car> summerFactory = new PolishFactory().get(PartOfYear.Summer);
-        Car summerCar = summerFactory.get(Month.January);
-        System.out.println(summerCar.toString());
-
-        System.out.println();
-        System.out.println("Normal house");
-        NormalHouse normalHouse = new NormalHouse();
-        normalHouse.Enter();
-        normalHouse.Sleep();
-        normalHouse.Exit();
-
-        System.out.println();
-        System.out.println("Vacant");
-        Vacant vacant = new Vacant(normalHouse);
-        vacant.Enter();
-        vacant.Sleep();
-        vacant.Exit();
-        vacant.Demolish();
-
-        System.out.println();
-        System.out.println("Villa");
-        Villa villa = new Villa(normalHouse);
-        villa.Enter();
-        villa.Sleep();
-        villa.Swim();
-        villa.Exit();
-
-
-        System.out.println();
-        System.out.println("Explorer star journey");
-        Random r = new Random();
-        final int CAMP_COUNT = 10;
-
-        ExplorationJournal journal = new ExplorationJournal();
-        Explorer explorer = new Explorer();
-
-        for(int campIndex =0; campIndex<CAMP_COUNT;campIndex++) {
-            switch (r.nextInt() % 4) {
-                case 0:
-                    journal.makeNote(new MoveUpCommand(explorer));
-                    break;
-                case 1:
-                    journal.makeNote(new MoveDownCommand(explorer));
-                    break;
-                case 2:
-                    journal.makeNote(new MoveLeftCommand(explorer));
-                    break;
-                default:
-                    journal.makeNote(new MoveRightCommand(explorer));
-                    break;
-            }
-        }
-
-        System.out.println();
-        System.out.println("Explorer print his book based on his journal");
-        journal.print();
+        Opera opera = new Opera(100,2,"Phantom at the opera");
+        Theatre theatre = new Theatre(200,2.5, "Pinokio");
+        Cinema cinema = new Cinema(300,3,"Avengers");
+        List<Visitable> weekendPlan = new LinkedList<Visitable>();
+        weekendPlan.add(opera);
+        weekendPlan.add(theatre);
+        weekendPlan.add(cinema);
+        weekendPlan.add(opera);
+        weekendPlan.add(theatre);
+        weekendPlan.add(cinema);
+        WeekendWallet wallet = new WeekendWallet();
+        WeekendManager manager = new WeekendManager(wallet, weekendPlan);
+        manager.visitAll();
+        System.out.println(manager.getBalance());
     }
 }

@@ -10,10 +10,12 @@ import com.patterns.creational.builder.enums.Mark;
 public class CarBuilder implements Builder<Car> {
     private Body body;
     private Color color;
-    private Drive drive;private Mark mark;
+    private Drive drive;
+    private Mark mark;
 
     public CarBuilder setBody(Body body) {
         this.body = body;
+
         return this;
     }
 
