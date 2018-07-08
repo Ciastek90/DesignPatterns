@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="971e583c-c640-4ffd-8ec1-258987b3f856" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/standard/PurseBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/OneFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/UniversalPurseFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/enums/PurseType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Purse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseTypeFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/operational/command/MoveUpAndRight.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/AverageCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/BMWDecorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/Car.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/TIR.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductA.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/AbstractFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductA1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/fluentApi/CarBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/fluentApi/CarBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/patterns/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/patterns/creational/builder/fluentApi/CarBuilder.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/creational/builder/fluentApi/CarBuilder.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,120 +21,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/command/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveUpAndRight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/command/MoveUpAndRight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Visitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/Visitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeekendWallet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/WeekendWallet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cinema.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/utilities/Cinema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/utilities/Opera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Theatre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/utilities/Theatre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeekendManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/WeekendManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Visitable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/Visitable.java">
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Component.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Composite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Composite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#202#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leaf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Leaf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,6 +87,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ciastek90 &lt;digitalciastek@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -183,10 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/enums/PourseType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/enums/PurseType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseTypeFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/OneFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/UniversalPurseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Purse.java" />
@@ -198,7 +118,46 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/BMWDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/TIR.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/command/MoveUpAndRight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/FactiryA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/FactroyA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factroy1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductA1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductA2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductB1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductB2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ContriteFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractProductA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractProductB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductA1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductA2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductB1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductB2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactoryA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactory1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactoryB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactory2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/Builder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/ConcreteBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/Director.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/ConcretePrototype1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/CreatePrototype2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/creational/singleton/exarcise/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/V1Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/V1Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/V2Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Leaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Composite.java" />
       </list>
     </option>
   </component>
@@ -285,7 +244,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="operational" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -295,8 +254,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="operational" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,6 +275,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.patterns.creational.builder.exercise" />
       <recent name="com.patterns.creational.factory.standard" />
     </key>
   </component>
@@ -454,6 +413,14 @@
       <updated>1530639157380</updated>
       <workItem from="1530639160722" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="Cwiczenia na zajeciach">
+      <created>1531033311855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531033311855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -461,33 +428,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1802" height="1102" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29677418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29605964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38370785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38370785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2435484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.80724174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -497,6 +463,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cwiczenia na zajeciach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cwiczenia na zajeciach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,269 +549,48 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/patterns/Main.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="com.list" />
+        <watch expression="com.list" language="JAVA" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" language="JAVA" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" language="JAVA" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" language="JAVA" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(0)" language="JAVA" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list" language="JAVA" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+        <watch expression="((java.util.LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)((LinkedList)((Composite)com.list.get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)).list).get(1)" custom="java.util.LinkedList,com.patterns.operational.composite.Composite" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/visitor/utilities/Cinema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/enums/Month.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/AudiFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/enums/PurseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/MonthFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseTypeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/UniversalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/BmwFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/ChevroletFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/CitroenFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/PolishFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/OneFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/Abstract/UniversalPurseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/standard/CarBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Purse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/PurseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/fluentApi/CarBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/standard/PurseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/singleton/Lazy/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/singleton/Eager/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/NormalHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/HouseDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/Vacant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/Villa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/BMWDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/TIR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/decorator/AverageCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#111#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,6 +605,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,12 +685,12 @@
         <state relative-caret-position="578">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -950,8 +700,8 @@
         <state relative-caret-position="136">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,8 +711,8 @@
         <state relative-caret-position="408">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,11 +728,330 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/ProductB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductA2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductB1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductB2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/Factory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/ProductA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractProductA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractProductB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductA2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductB1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ProductB2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactory2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/factory/standard/fromUp/ConcreteFactory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/ConcreteBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/ConcretePrototype1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/CreatePrototype2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/singleton/exarcise/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/exercise/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/V1Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/V2Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/bridge/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/operational/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#202#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
