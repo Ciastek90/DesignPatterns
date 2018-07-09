@@ -13,7 +13,12 @@ import com.patterns.creational.factory.enums.Month;
 import com.patterns.creational.singleton.Eager.Example.ExternalMachineConnection;
 import com.patterns.creational.singleton.Enum.Example.MemoryConnection;
 import com.patterns.creational.singleton.Lazy.Example.SQLConnection;
+import com.patterns.operational.bridge.Shape;
+import com.patterns.operational.bridge.V1Drawing;
+import com.patterns.operational.bridge.V2Drawing;
 import com.patterns.operational.command.*;
+import com.patterns.operational.composite.Composite;
+import com.patterns.operational.composite.Leaf;
 import com.patterns.operational.decorator.NormalHouse;
 import com.patterns.operational.decorator.Vacant;
 import com.patterns.operational.decorator.Villa;
@@ -30,19 +35,11 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Opera opera = new Opera(100,2,"Phantom at the opera");
-        Theatre theatre = new Theatre(200,2.5, "Pinokio");
-        Cinema cinema = new Cinema(300,3,"Avengers");
-        List<Visitable> weekendPlan = new LinkedList<Visitable>();
-        weekendPlan.add(opera);
-        weekendPlan.add(theatre);
-        weekendPlan.add(cinema);
-        weekendPlan.add(opera);
-        weekendPlan.add(theatre);
-        weekendPlan.add(cinema);
-        WeekendWallet wallet = new WeekendWallet();
-        WeekendManager manager = new WeekendManager(wallet, weekendPlan);
-        manager.visitAll();
-        System.out.println(manager.getBalance());
+
+        Leaf leaf = new Leaf();
+        Composite com = new Composite();
+        com.add(leaf);
+        com.add(com);
+
     }
 }
